@@ -1,14 +1,17 @@
-# PassGen (v.1) by GrobranGG
+# PassGen (v.1.1) by GrobranGG
 import random
 import colorama
 import secrets
+import os
 
 from colorama import init
 from colorama import Fore, Back
 from random import randint
 init()
+os.system("clear")
+os.system("cls")
 
-print(Fore.CYAN + "PassGen v.1 (by GrobranGG)")
+print(Fore.CYAN + "PassGen v.1.1 (by GrobranGG)")
 print(Back.WHITE)
 print(Fore.BLACK + "Choose a language (number):")
 print("1. English")
