@@ -1,3 +1,6 @@
+# PassGen
+![banner](https://i.ibb.co/D8PfRDx/bannerreadme.png)
+
 # About Project
 My first project that I'm posting on GitHub. This is a strong password generator. I hope you enjoy it!
 The program has the ability to choose the number and length of passwords.
