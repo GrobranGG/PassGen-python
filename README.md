@@ -14,7 +14,7 @@ py main.py
 There is also __".exe"__ version of the program. It is located in the [dist folder.](https://github.com/GrobranGG/PassGen-python/tree/main/dist)
 
 # Project Status
-At the moment, the project has version __1.2__. You can download the latest version on [the repository.](https://github.com/GrobranGG/PassGen-python)
+At the moment, the project has version __1.3__. You can download the latest version on [the repository.](https://github.com/GrobranGG/PassGen-python)
 
 # License
 This repository uses the [MIT License.](https://github.com/GrobranGG/PassGen-python/blob/main/LICENSE)
