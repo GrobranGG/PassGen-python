@@ -1,4 +1,4 @@
-# PassGen (v.1.3) by GrobranGG
+# PassGen (v.1.4) by GrobranGG
 import random
 import colorama
 import os
@@ -6,10 +6,12 @@ import sys
 
 opersystem = sys.platform
 
-if opersystem == "win32":
-    os.system("cls")
-elif opersystem == 'linux':
-    os.system("clear")
+clean_command = ""
+if sys.platform == "win32":
+    clean_command = "cls"
+elif sys.platform == "linux":
+    clean_command = "clear"
+os.system(clean_command)
 
 from colorama import Fore
 colorama.init()
@@ -21,7 +23,7 @@ print(Fore.GREEN + "| |__) |_ _ ___ ___| |  __  ___ _ __  ")
 print(Fore.GREEN + "|  ___/ _` / __/ __| | |_ |/ _ \ '_ \ ")
 print(Fore.GREEN + "| |  | (_| \__ \__ \ |__| |  __/ | | |")
 print(Fore.GREEN + "|_|   \__,_|___/___/\_____|\___|_| |_|")
-print(Fore.RED + "                  v.1.3 (by GrobranGG)\n")
+print(Fore.RED + "                  v.1.4 (by GrobranGG)\n")
 
 # Choose a language
 print(Fore.WHITE + "Choose a language (number):")
@@ -39,6 +41,8 @@ elif language == "2":
     lang = russian
 else:
     print(Fore.RED + "Incorrect language!")
+    input()
+    sys.exit()
 
 chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 
@@ -46,10 +50,7 @@ chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567
 number = int(input(lang['how many passwords']))
 length = int(input(lang['length']))
 
-if opersystem == "win32":
-    os.system("cls")
-elif opersystem == 'linux':
-    os.system("clear")
+os.system(clean_command)
 
 print(Fore.GREEN)
 print(lang['generated'])
