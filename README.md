@@ -1,5 +1,5 @@
 # PassGen
-![banner](https://i.ibb.co/jbc16KS/68747470733a2f2f692e6962622e636f2f443850665244782f62616e6e6572726561646d652e706e67.png)
+![banner](https://i.ibb.co/X4gxTFx/68747470733a2f2f692e6962622e636f2f443850665244782f62616e6e6572726561646d652e706e67.png)
 
 # About Project
 My first project that I'm posting on GitHub. This is a strong password generator. I hope you enjoy it!
